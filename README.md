@@ -2,6 +2,8 @@
 
 PDF oder Text hochladen und mit KI Fragen stellen — Antworten mit Quellenangabe.
 
+**Live:** https://rag-document-qa-api-318293260539.europe-west3.run.app
+
 ## Stack
 
 - **Backend**: Python · FastAPI · ChromaDB · Gemini Embeddings (`text-embedding-004`) · Gemini Flash
