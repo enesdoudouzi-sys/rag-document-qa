@@ -1,4 +1,5 @@
 """RAG-Engine: Dokument-Chunking, Embedding via Gemini, Suche via ChromaDB."""
+from __future__ import annotations
 import io
 import os
 import uuid
