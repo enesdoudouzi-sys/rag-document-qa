@@ -19,6 +19,10 @@ class FrageRequest(BaseModel):
     frage: str
 
 
+@app.get("/")
+def root():
+    return {"service": "RAG Document Q&A", "status": "ok", "docs": "/docs"}
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
