@@ -12,7 +12,7 @@ from google.genai import types
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 100
 EMBED_MODEL = "text-embedding-004"
-GEN_MODEL = "gemini-1.5-flash"
+GEN_MODEL = "models/gemini-3.5-flash"
 
 _client: chromadb.Client | None = None
 _collection: chromadb.Collection | None = None
